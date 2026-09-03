@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f7;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.card {
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #286090;
+    margin-bottom: 5px;
+}
+.subtitulo {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #286090;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #204d74;
+}
+.link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+a {
+    color: #286090;
+}
+#mensagem,
+#mensagemCadastro {
+    text-align: center;
+    margin-top: 15px;
+}
+.senha-atual {
+    text-align: center;
+    background-color: #f2f5f7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.senha-atual p {
+    margin-bottom: 10px;
+}
+.senha-atual strong {
+    font-size: 42px;
+    color: #286090;
+}
+.info-fila {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.info-fila strong {
+    font-size: 24px;
+}
+#minhaSenha {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.botao-secundario {
+    background-color: #777;
+}
+.botao-secundario:hover {
+    background-color: #555;
+}
